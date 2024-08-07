@@ -1,4 +1,4 @@
-import express from 'express';
+/*import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
@@ -81,3 +81,4 @@ server.listen(port,'0.0.0.0', () => {
     connect();
     console.log(`Server running on port ${port}`);
 });
+*/
