@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import io from 'socket.io-client';
 import NewPrompt from '../../components/newprompt/NewPrompt';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://ranjaibackend.vercel.app/');
 
 const DashboardPage = () => {
     const { userId } = useAuth();
